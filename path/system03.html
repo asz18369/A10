@@ -50,40 +50,41 @@
         <section class="py-5">
             <div class="container px-5 my-5">
                 <div class="text-center mb-5">
-                    <h1 class="fw-bolder">專題系統化面展示與說明03</h1>
-                    <p class="lead fw-normal text-muted mb-0">說明</p>
+                    <h1 class="fw-bolder">使用參數與步驟</h1>
+                    <p class="lead fw-normal text-muted mb-0"></p>
                 </div>
                 <div class="row gx-5">
                     <div class="col-lg-6">
                         <div class="position-relative mb-5">
-                            <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d"
+                            <img class="img-fluid rounded-5 mb-5" src="img/參數/01.jpg"
                                 alt="..." />
-                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project
-                                name</a>
+                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Prompt提示詞</a>
+                            <h5>是文字形式的指令，傳達了藝術家所需的圖像規格、細節和風格偏好，輸入到模型（如 Stable Diffusion）中，以產生特定的輸出。</h5>
+                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Negative prompt 反提示詞</a>
+                            <h5>另一種推動AI模型的方法，為您提供您想要的東西，在反提示詞中輸入的東西將不會出現在最後的成品中。</h5>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="position-relative mb-5">
-                            <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d"
+                            <img class="img-fluid rounded-3 mb-3" src="img/參數/SD.jpg"
                                 alt="..." />
-                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project
-                                name</a>
+                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Sampling steps取樣步驟</a>
+                            <h5>取樣步驟是指根據文字提示運轉，Stable Diffusion從隨機雜訊到可辨識影像的迭代次數。在每個取樣過程中，Stable Diffusion透過對先前影像進行去雜訊以使其更接近提示詞，從而產生新的取樣影像。</h5>
+                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Sampling method取樣方法</a>
+                            <h5>Stable Diffusion透過稱為「取樣」(Sampling)的去雜訊過程產生影像。在每一步中，它都會透過新增雜訊然後慢慢刪除它來建立新的樣本影像。有不同的取樣方法可以權衡影像品質、訓練時間和 VRAM 使用情況:</h5>
+                            <h5>Euler a - 高效率但影像品質較低</h5>
+                            <h5>DPM - 產生更高品質的影像，但需要更多 VRAM 和時間</h5>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="position-relative mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d"
+                            <img class="img-fluid rounded-3 mb-3" src="img/參數/cn.jpg"
                                 alt="..." />
-                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project
-                                name</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="position-relative">
-                            <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d"
-                                alt="..." />
-                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project
-                                name</a>
+                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Control Step控制步驟</a>
+                            <h5>開始控制步驟 - 這設定了 ControlNet 開始來指導影像產生時的步驟。較高的起始步驟意味著 ControlNet 開始影響的時間較晚。</h5>
+                            <h5>結束控制步驟 - 設定 ControlNet 停止套用約束/影響時的步驟。較低的結束步驟意味著 ControlNet 會更快停止影響。</h5>
+                            <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Script腳本</a>
+                            <h5>是一種專為影像產生和操作而設計的神經網路結構。它可以增強對影像產生過程的控制，腳本的精確細節可能會根據預設的應用程式和使用者要求而有所不同。</h5>
                         </div>
                     </div>
                 </div>
